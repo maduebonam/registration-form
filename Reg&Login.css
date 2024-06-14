@@ -1,0 +1,199 @@
+. {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(187, 187, 245);
+    color: rgb(7, 19, 19);
+}
+
+.register {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    background: url(images/background.jpg);
+    border-radius: 6px;
+    box-shadow: -20px 16px 20px;
+
+}
+
+.login {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    background: url(images/pic.jpg);
+    border-radius: 6px;
+    box-shadow: -20px 16px 20px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.username,
+.email,
+.password {
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    position: relative;
+    padding: 0 40px 0 10px;
+
+}
+
+input {
+    position: relative;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    width: 85%;
+    height: 70%;
+    background: transparent;
+    color: #fff;
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+}
+
+.login-register {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a {
+    color: rgb(90, 9, 49);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover {
+    text-decoration: 2px underline solid #640202;
+}
+
+
+button {
+    background: #0171d3;
+    border: none;
+    outline: none;
+    color: white;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    height: 30px;
+    width: 80%;
+    margin: 15px 20px 15px 30px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color: #b33693;
+}
+
+.remember-forgot {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin: 0 0 15px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label a {
+    color: rgb(241, 236, 239);
+    margin-left: 5px;
+}
+
+.remember-forgot label a:hover {
+    text-decoration: 2px underline solid red;
+}
+
+.form-link {
+    position: relative;
+    font-size: .9em;
+    color: white;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+
+.form-link a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: black;
+}
+
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: black;
+    padding: 0 16px;
+}
+
+.media-options {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px 20px;
+    height: 30px;
+    width: auto;
+    background: #0171d3;
+    color: #fff;
+}
+
+.media-options span a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.media-options label a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:400px) {
+    .form {
+        padding: 15px 10px;
+    }
+}
